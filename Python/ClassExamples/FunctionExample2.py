@@ -7,10 +7,6 @@ def order_names(list_names):
 
 #['Alin', 'Talya', 'Topaz', 'Gaya']
 
-
-
-
-
 list_names = []
 while True:
     name = input("What is your friend's name? ")
