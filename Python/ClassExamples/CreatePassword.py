@@ -6,7 +6,7 @@ def write_to_file(password):
     #file_obj = open("passwords.txt", "a")
     #file_obj.write(password)
     #file_obj.close()
-    with open("passwords.txt","a") as file:
+    with open("passwords.txt", "a") as file:
         file.write(password+"\n")
 
 
