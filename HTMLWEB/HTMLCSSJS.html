@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>דוגמה 3: HTML + CSS + JS</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: navy;
+        }
+        p {
+            font-size: 18px;
+            color: #333333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>כותרת אינטראקטיבית</h1>
+    <p id="myParagraph">לחץ על הכפתור כדי לשנות אותי.</p>
+    <button onclick="changeText()">שנה את הטקסט</button>
+
+    <script>
+        function changeText() {
+            // Find the paragraph element by its ID
+            var paragraph = document.getElementById("myParagraph");
+            // Change its text content
+            paragraph.innerHTML = "הנה, הטקסט השתנה! ✨";
+        }
+    </script>
+
+</body>
+</html>
+
+
