@@ -3,8 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 
 
-URL = "https://keithgalli.github.io/web-scraping/webpage.html"
+URL = "https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Passwords/days.txt"
 html_data = requests.get(URL).text
+print(html_data)
 # getting the html STRING WEB SITE
 
 soup = BeautifulSoup( html_data , 'html.parser')
