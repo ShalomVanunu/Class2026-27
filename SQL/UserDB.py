@@ -1,9 +1,8 @@
 import sqlite3
 
+# INSERT, DELETE, UPDATE , CREATE
 
 DBfile = 'usersdb.db'
-
-
 
 #generic DB function for changing DB
 def handle_Db(DBfile, SQL):
@@ -16,11 +15,14 @@ def handle_Db(DBfile, SQL):
 create_table_sql = "CREATE TABLE IF NOT EXISTS users  (fname TEXT,lname TEXT,phone TEXT)"
 
 handle_Db(DBfile,create_table_sql) #create DB
+name = "moshe"
 
-insert_data_sql = " INSERT INTO users VALUES ('shalom','vanunu','0547590807') "
+insert_data_sql = f"INSERT INTO users VALUES ('{name}','vanunu','0547590807') "
 
 handle_Db(DBfile, insert_data_sql)
 
+del_data = "DELETE FROM users WHERE fname= 'moshe'"
+handle_Db(DBfile, del_data)
 
 
 
