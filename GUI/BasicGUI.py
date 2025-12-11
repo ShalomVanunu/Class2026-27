@@ -13,7 +13,7 @@ entry1.pack()
 
 def do_something():
    label3.configure(text=entry1.get(), font=("Ariel",20))
-   text1.insert(entry1.get())
+   text1.insert(tk.END,entry1.get())
 def delete():
     label3.configure(text="")
 
