@@ -1,6 +1,6 @@
 import socket
 
-IP = "172.20.130.55"
+IP = "172.20.130.55" #
 PORT = 6000 # 1-65500 (1-1024 Well knwn port)
 
 Server_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)  # AF_INET- IPv4 , TCP
