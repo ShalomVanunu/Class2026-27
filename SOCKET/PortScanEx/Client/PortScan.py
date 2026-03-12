@@ -11,7 +11,7 @@ def portscan(target):
         sock.settimeout(0.01)
         result = sock.connect_ex((target,port))
         if result == 0:
-            print("Port" ,port,"is open")
+            #print("Port" ,port,"is open")
             open_port_list.append(port)
         sock.close()
     return open_port_list

@@ -10,14 +10,13 @@ def main():
     Server_Soc.bind((IP,PORT))
     Server_Soc.listen()
     print(" Server Waiting Client to connect...")
-    print("Check")
     Client_soc, IP_Port = Server_Soc.accept()
     print(f" client connected ...{IP_Port}")
 
     while True:
         choose = input(""" Choose :
-         1 . Start Scan
-         2. Exit""")
+         1 .Start Scan
+         2. Exit \n""")
         if int(choose) == 2:
             Client_soc.send("bye".encode())
             print("Bye")

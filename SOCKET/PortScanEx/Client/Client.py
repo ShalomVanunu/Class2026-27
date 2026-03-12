@@ -4,7 +4,7 @@ import socket
 IP = "172.20.138.211"
 PORT = 5555
 
-Client_soc = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+Client_soc = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 Client_soc.connect((IP,PORT))
 print(" client Connected...")
 
