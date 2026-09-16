@@ -1,0 +1,74 @@
+
+Host Name:                     LABAITEACHER
+OS Name:                       ??Microsoft Windows 11 Education
+OS Version:                    10.0.26200 N/A Build 26200
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Workstation
+OS Build Type:                 Multiprocessor Free
+Registered Owner:              User
+Registered Organization:       
+Product ID:                    00328-20331-65786-AA585
+Original Install Date:         03/24/2025, 06:34:57
+System Boot Time:              02/13/2026, 18:47:14
+System Manufacturer:           HP
+System Model:                  HP Elite Tower 800 G9 Desktop PC
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: Intel64 Family 6 Model 183 Stepping 1 GenuineIntel ~2100 Mhz
+BIOS Version:                  HP U01 Ver. 02.19.01, 09/22/2025
+Windows Directory:             C:\Windows
+System Directory:              C:\Windows\system32
+Boot Device:                   \Device\HarddiskVolume1
+System Locale:                 he;Hebrew
+Input Locale:                  en-us;English (United States)
+Time Zone:                     (UTC+02:00) Jerusalem
+Total Physical Memory:         16,054 MB
+Available Physical Memory:     5,534 MB
+Virtual Memory: Max Size:      22,198 MB
+Virtual Memory: Available:     8,030 MB
+Virtual Memory: In Use:        14,168 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  \\LABAITEACHER
+Hotfix(s):                     7 Hotfix(s) Installed.
+                               [01]: KB5066128
+                               [02]: KB5048779
+                               [03]: KB5050575
+                               [04]: KB5054156
+                               [05]: KB5077181
+                               [06]: KB5071142
+                               [07]: KB5077869
+Network Card(s):               2 NIC(s) Installed.
+                               [01]: Intel(R) Ethernet Connection (17) I219-LM
+                                     Connection Name: ??Ethernet
+                                     DHCP Enabled:    Yes
+                                     DHCP Server:     172.20.159.254
+                                     IP address(es)
+                                     [01]: 172.20.130.55
+                                     [02]: fe80::b19e:7ea3:54c7:6b64
+                               [02]: VirtualBox Host-Only Ethernet Adapter
+                                     Connection Name: ??Ethernet 2
+                                     DHCP Enabled:    No
+                                     IP address(es)
+                                     [01]: 192.168.56.1
+                                     [02]: fe80::44f3:1eaa:a0c2:1f27
+Virtualization-based security: Status: Running
+                               Required Security Properties:
+                                     Base Virtualization Support
+                               Available Security Properties:
+                                     Base Virtualization Support
+                                     DMA Protection
+                                     UEFI Code Readonly
+                                     SMM Security Mitigations 1.0
+                                     Mode Based Execution Control
+                                     APIC Virtualization
+                               Services Configured:
+                                     Hypervisor enforced Code Integrity
+                               Services Running:
+                                     Credential Guard
+                                     Hypervisor enforced Code Integrity
+                                     Hypervisor-Enforced Paging Translation
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Off
+                               Security Features Enabled:
+Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.
