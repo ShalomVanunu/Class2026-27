@@ -14,6 +14,6 @@ while True:
         break
     if data== "start":
         list_ports = PortScan.portscan(IP)
-        print(list_ports)
+        Client_soc.send(str(list_ports).encode())
 
 
